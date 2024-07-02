@@ -1,0 +1,6564 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jul  2 12:54:16 2024
+# Process ID: 21088
+# Current directory: D:/Document/TMP/BubblePipelineCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16132 D:\Document\TMP\BubblePipelineCPU\BubblePipelineCPU.xpr
+# Log file: D:/Document/TMP/BubblePipelineCPU/vivado.log
+# Journal file: D:/Document/TMP/BubblePipelineCPU\vivado.jou
+# Running On: DESKTOP-9INUMK4, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16952 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Software/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Software/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1507.543 ; gain = 297.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'simulation'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Software/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'simulation' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj simulation_vlog.prj"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpga
+INFO: [VRFC 10-311] analyzing module CPU
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'PC_Cur' is not allowed [D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v:12]
+INFO: [VRFC 10-311] analyzing module Hazard
+INFO: [VRFC 10-311] analyzing module JumpController
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-311] analyzing module IF2ID
+INFO: [VRFC 10-311] analyzing module ID2EX
+INFO: [VRFC 10-311] analyzing module EX2MEM
+INFO: [VRFC 10-311] analyzing module MEM2WB
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-311] analyzing module Mux2
+INFO: [VRFC 10-311] analyzing module Mux4
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-311] analyzing module PCAdd4
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-311] analyzing module PCBranch
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sim_1/new/simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simulation
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log"
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Software/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'in10' [D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v:172]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 4. Module CPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 296. Module Hazard doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 660. Module PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 707. Module InstructionMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 727. Module PCAdd4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 326. Module JumpController doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 479. Module IF2ID doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 335. Module Controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 755. Module RegFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 692. Module Mux4(DEPTH=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 736. Module SignExtend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 508. Module ID2EX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 788. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 745. Module PCBranch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2(DEPTH=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 584. Module EX2MEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 827. Module DataMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 624. Module MEM2WB doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 692. Module Mux4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 4. Module CPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 296. Module Hazard doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 660. Module PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 707. Module InstructionMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 727. Module PCAdd4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 326. Module JumpController doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 479. Module IF2ID doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 335. Module Controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 755. Module RegFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 692. Module Mux4(DEPTH=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 736. Module SignExtend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 508. Module ID2EX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 788. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 745. Module PCBranch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2(DEPTH=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 584. Module EX2MEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 827. Module DataMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 624. Module MEM2WB doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 692. Module Mux4 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Hazard
+Compiling module xil_defaultlib.Mux2
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdd4
+Compiling module xil_defaultlib.JumpController
+Compiling module xil_defaultlib.IF2ID
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.Mux4(DEPTH=5)
+Compiling module xil_defaultlib.SignExtend
+Compiling module xil_defaultlib.ID2EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PCBranch
+Compiling module xil_defaultlib.Mux2(DEPTH=1)
+Compiling module xil_defaultlib.EX2MEM
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MEM2WB
+Compiling module xil_defaultlib.Mux4
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot simulation_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1578.453 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "simulation_behav -key {Behavioral:sim_1:Functional:simulation} -tclbatch {simulation.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source simulation.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+                   0
+Op = 000000, Funct = 000000
+                   0
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                   0
+Stall = 0
+Flush = 0
+PC_PPotential = 00000004
+PC_Potential = 00000004
+PC_Next = 00000004
+PC_Cur = 00000000
+Instr_IF = 20110020
+PC_4_IF = 00000004
+JumpAddr = 00440080
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000000
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                  10
+Op = 001000, Funct = 100000
+                  10
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                  10
+Stall = 0
+Flush = 0
+PC_PPotential = 00000008
+PC_Potential = 00000008
+PC_Next = 00000008
+PC_Cur = 00000004
+Instr_IF = 20020022
+PC_4_IF = 00000008
+JumpAddr = 00080088
+Jump = 0
+Instr_ID = 20110020
+PC_4_ID = 00000004
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 11
+SignImm_ID = 00000020
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                  20
+Op = 001000, Funct = 100010
+                  20
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                  20
+Stall = 0
+Flush = 0
+PC_PPotential = 00000018
+PC_Potential = 00000018
+PC_Next = 00000018
+PC_Cur = 00000008
+Instr_IF = 08000006
+PC_4_IF = 0000000c
+JumpAddr = 00000018
+Jump = 1
+Instr_ID = 20020022
+PC_4_ID = 00000008
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 02
+SignImm_ID = 00000022
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 1
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 11
+SignImm_EX = 00000020
+PC_4_EX = 00000004
+SrcB = 00000020
+Result_EX = 00000020
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000084
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                  30
+Op = 000010, Funct = 000110
+                  30
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                  30
+Stall = 0
+Flush = 0
+PC_PPotential = 0000001c
+PC_Potential = 0000001c
+PC_Next = 0000001c
+PC_Cur = 00000018
+Instr_IF = 10000003
+PC_4_IF = 0000001c
+JumpAddr = 0000000c
+Jump = 0
+Instr_ID = 08000006
+PC_4_ID = 0000000c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000006
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 1
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 02
+SignImm_EX = 00000022
+PC_4_EX = 00000008
+SrcB = 00000022
+Result_EX = 00000022
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000090
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000020
+WriteData = 00000000
+WriteRegA_MEM = 11
+PC_4_MEM = 00000004
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                  40
+Op = 000100, Funct = 000011
+                  40
+RegDst = 0, AluSrc = 0, AluOp = 1, ResultSel = 0,  Branch = 1, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                  40
+Stall = 0
+Flush = 0
+PC_PPotential = 00000020
+PC_Potential = 00000020
+PC_Next = 00000020
+PC_Cur = 0000001c
+Instr_IF = 20110007
+PC_4_IF = 00000020
+JumpAddr = 0044001c
+Jump = 0
+Instr_ID = 10000003
+PC_4_ID = 0000001c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 1
+ResultSel_ID = 0
+Branch_ID = 1
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000003
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000006
+PC_4_EX = 0000000c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000024
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000022
+WriteData = 00000000
+WriteRegA_MEM = 02
+PC_4_MEM = 00000008
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 00000020
+DMRD_WB = 00000000
+WriteRegA_WB = 11
+PC_4_WB = 00000004
+WriteBackData = 00000020
+
+                  45
+reg[17] = 00000020
+                  50
+Op = 001000, Funct = 000111
+                  50
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                  50
+Stall = 0
+Flush = 1
+PC_PPotential = 00000024
+PC_Potential = 00000024
+PC_Next = 00000028
+PC_Cur = 00000020
+Instr_IF = 20120008
+PC_4_IF = 00000024
+JumpAddr = 00480020
+Jump = 0
+Instr_ID = 20110007
+PC_4_ID = 00000020
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000020
+WriteRegA_ID = 11
+SignImm_ID = 00000007
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 1
+ResultSel_EX = 0
+AluOp_EX = 1
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000003
+PC_4_EX = 0000001c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 1
+BranchTaken = 1
+BranchAddr = 00000028
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000000c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 00000022
+DMRD_WB = 00000000
+WriteRegA_WB = 02
+PC_4_WB = 00000008
+WriteBackData = 00000022
+
+                  55
+reg[ 2] = 00000022
+                  60
+Op = 000000, Funct = 000000
+                  60
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                  60
+Stall = 0
+Flush = 0
+PC_PPotential = 0000002c
+PC_Potential = 0000002c
+PC_Next = 0000002c
+PC_Cur = 00000028
+Instr_IF = 14110003
+PC_4_IF = 0000002c
+JumpAddr = 0044000c
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000000
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 1
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000001c
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000000c
+WriteBackData = 00000000
+
+                  70
+Op = 000101, Funct = 000011
+                  70
+RegDst = 0, AluSrc = 0, AluOp = 1, ResultSel = 1,  Branch = 1, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                  70
+Stall = 0
+Flush = 0
+PC_PPotential = 00000030
+PC_Potential = 00000030
+PC_Next = 00000030
+PC_Cur = 0000002c
+Instr_IF = 2011000a
+PC_4_IF = 00000030
+JumpAddr = 00440028
+Jump = 0
+Instr_ID = 14110003
+PC_4_ID = 0000002c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 1
+ResultSel_ID = 1
+Branch_ID = 1
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000020
+WriteRegA_ID = 11
+SignImm_ID = 00000003
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 1
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000001c
+WriteBackData = 00000000
+
+                  80
+Op = 001000, Funct = 001010
+                  80
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                  80
+Stall = 0
+Flush = 1
+PC_PPotential = 00000034
+PC_Potential = 00000034
+PC_Next = 00000038
+PC_Cur = 00000030
+Instr_IF = 2012000b
+PC_4_IF = 00000034
+JumpAddr = 0048002c
+Jump = 0
+Instr_ID = 2011000a
+PC_4_ID = 00000030
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000020
+WriteRegA_ID = 11
+SignImm_ID = 0000000a
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 1
+ResultSel_EX = 1
+AluOp_EX = 1
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000020
+WriteRegA_EX = 11
+SignImm_EX = 00000003
+PC_4_EX = 0000002c
+SrcB = 00000020
+Result_EX = ffffffe0
+Equal = 0
+BranchTaken = 1
+BranchAddr = 00000038
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                  90
+Op = 000000, Funct = 000000
+                  90
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                  90
+Stall = 0
+Flush = 0
+PC_PPotential = 00000050
+PC_Potential = 00000050
+PC_Next = 00000050
+PC_Cur = 00000038
+Instr_IF = 0c000014
+PC_4_IF = 0000003c
+JumpAddr = 00000050
+Jump = 1
+Instr_ID = 00000000
+PC_4_ID = 00000000
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = ffffffe0
+WriteData = 00000020
+WriteRegA_MEM = 11
+PC_4_MEM = 0000002c
+DMRD_MEM = xxxxxxxx
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 100
+Op = 000011, Funct = 010100
+                 100
+RegDst = 2, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 2, RegWrite = 1, JumpReg = 0
+                 100
+Stall = 0
+Flush = 0
+PC_PPotential = 00000054
+PC_Potential = 00000054
+PC_Next = 00000054
+PC_Cur = 00000050
+Instr_IF = 001f0820
+PC_4_IF = 00000054
+JumpAddr = 007c2080
+Jump = 0
+Instr_ID = 0c000014
+PC_4_ID = 0000003c
+RegDst = 2
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 2
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 1f
+SignImm_ID = 00000014
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = ffffffe0
+DMRD_WB = xxxxxxxx
+WriteRegA_WB = 11
+PC_4_WB = 0000002c
+WriteBackData = ffffffe0
+
+                 110
+Op = 000000, Funct = 100000
+                 110
+RegDst = 1, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 110
+Stall = 1
+Flush = 1
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 001f0820
+PC_4_ID = 00000054
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 01
+SignImm_ID = 00000820
+RegWrite_EX = 1
+WriteToReg_EX = 2
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 1f
+SignImm_EX = 00000014
+PC_4_EX = 0000003c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000008c
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 120
+Stall = 1
+Flush = 1
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 001f0820
+PC_4_ID = 00000054
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 01
+SignImm_ID = 00000820
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 1
+WriteToReg_MEM = 2
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 1f
+PC_4_MEM = 0000003c
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 130
+Stall = 0
+Flush = 0
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 001f0820
+PC_4_ID = 00000054
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 01
+SignImm_ID = 00000820
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 2
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 1f
+PC_4_WB = 0000003c
+WriteBackData = 0000003c
+
+                 135
+reg[31] = 0000003c
+                 135
+Stall = 0
+Flush = 0
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 001f0820
+PC_4_ID = 00000054
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 0000003c
+WriteRegA_ID = 01
+SignImm_ID = 00000820
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 2
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 1f
+PC_4_WB = 0000003c
+WriteBackData = 0000003c
+
+                 140
+Op = 001000, Funct = 111111
+                 140
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 140
+Stall = 0
+Flush = 0
+PC_PPotential = 0000005c
+PC_Potential = 0000005c
+PC_Next = 0000005c
+PC_Cur = 00000058
+Instr_IF = 00000000
+PC_4_IF = 0000005c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 2231ffff
+PC_4_ID = 00000058
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000020
+Rt_ID = 00000020
+WriteRegA_ID = 11
+SignImm_ID = ffffffff
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 0000003c
+WriteRegA_EX = 01
+SignImm_EX = 00000820
+PC_4_EX = 00000054
+SrcB = 0000003c
+Result_EX = 0000003c
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000020d4
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 150
+Op = 000000, Funct = 000000
+                 150
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 150
+Stall = 0
+Flush = 0
+PC_PPotential = 00000060
+PC_Potential = 00000060
+PC_Next = 00000060
+PC_Cur = 0000005c
+Instr_IF = 00000000
+PC_4_IF = 00000060
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000005c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 1
+Rs_EX = 00000020
+Rt_EX = 00000020
+WriteRegA_EX = 11
+SignImm_EX = ffffffff
+PC_4_EX = 00000058
+SrcB = ffffffff
+Result_EX = 0000001f
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000054
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000003c
+WriteData = 0000003c
+WriteRegA_MEM = 01
+PC_4_MEM = 00000054
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 160
+Stall = 0
+Flush = 0
+PC_PPotential = 00000064
+PC_Potential = 00000064
+PC_Next = 00000064
+PC_Cur = 00000060
+Instr_IF = 00000000
+PC_4_IF = 00000064
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000060
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000005c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000005c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001f
+WriteData = 00000020
+WriteRegA_MEM = 11
+PC_4_MEM = 00000058
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000003c
+DMRD_WB = 00000000
+WriteRegA_WB = 01
+PC_4_WB = 00000054
+WriteBackData = 0000003c
+
+                 165
+reg[ 1] = 0000003c
+                 170
+Stall = 0
+Flush = 0
+PC_PPotential = 00000068
+PC_Potential = 00000068
+PC_Next = 00000068
+PC_Cur = 00000064
+Instr_IF = 00112020
+PC_4_IF = 00000068
+JumpAddr = 00448080
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000064
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000060
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000060
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000005c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001f
+DMRD_WB = 00000000
+WriteRegA_WB = 11
+PC_4_WB = 00000058
+WriteBackData = 0000001f
+
+                 175
+reg[17] = 0000001f
+                 180
+Op = 000000, Funct = 100000
+                 180
+RegDst = 1, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 180
+Stall = 0
+Flush = 0
+PC_PPotential = 0000006c
+PC_Potential = 0000006c
+PC_Next = 0000006c
+PC_Cur = 00000068
+Instr_IF = 00000000
+PC_4_IF = 0000006c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00112020
+PC_4_ID = 00000068
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 0000001f
+WriteRegA_ID = 04
+SignImm_ID = 00002020
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000064
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000064
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000060
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000005c
+WriteBackData = 00000000
+
+                 190
+Op = 000000, Funct = 000000
+                 190
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 190
+Stall = 0
+Flush = 0
+PC_PPotential = 00000070
+PC_Potential = 00000070
+PC_Next = 00000070
+PC_Cur = 0000006c
+Instr_IF = 00000000
+PC_4_IF = 00000070
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000006c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 0000001f
+WriteRegA_EX = 04
+SignImm_EX = 00002020
+PC_4_EX = 00000068
+SrcB = 0000001f
+Result_EX = 0000001f
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000080e8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000064
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000060
+WriteBackData = 00000000
+
+                 200
+Stall = 0
+Flush = 0
+PC_PPotential = 00000074
+PC_Potential = 00000074
+PC_Next = 00000074
+PC_Cur = 00000070
+Instr_IF = 00000000
+PC_4_IF = 00000074
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000070
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000006c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000006c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001f
+WriteData = 0000001f
+WriteRegA_MEM = 04
+PC_4_MEM = 00000068
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000064
+WriteBackData = 00000000
+
+                 210
+Stall = 0
+Flush = 0
+PC_PPotential = 00000078
+PC_Potential = 00000078
+PC_Next = 00000078
+PC_Cur = 00000074
+Instr_IF = 0000000c
+PC_4_IF = 00000078
+JumpAddr = 00000030
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000074
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000070
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000070
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000006c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001f
+DMRD_WB = 00000000
+WriteRegA_WB = 04
+PC_4_WB = 00000068
+WriteBackData = 0000001f
+
+                 215
+reg[ 4] = 0000001f
+                 220
+Op = 000000, Funct = 001100
+                 220
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 220
+Stall = 0
+Flush = 0
+PC_PPotential = 0000007c
+PC_Potential = 0000007c
+PC_Next = 0000007c
+PC_Cur = 00000078
+Instr_IF = 1620fff6
+PC_4_IF = 0000007c
+JumpAddr = 0883ffd8
+Jump = 0
+Instr_ID = 0000000c
+PC_4_ID = 00000078
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 0000000c
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000074
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000074
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000070
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000006c
+WriteBackData = 00000000
+
+                 230
+Op = 000101, Funct = 110110
+                 230
+RegDst = 0, AluSrc = 0, AluOp = 1, ResultSel = 1,  Branch = 1, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 230
+Stall = 0
+Flush = 0
+PC_PPotential = 00000080
+PC_Potential = 00000080
+PC_Next = 00000080
+PC_Cur = 0000007c
+Instr_IF = 03e00008
+PC_4_IF = 00000080
+JumpAddr = 0f800020
+Jump = 0
+Instr_ID = 1620fff6
+PC_4_ID = 0000007c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 1
+ResultSel_ID = 1
+Branch_ID = 1
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 0000001f
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = fffffff6
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 0000000c
+PC_4_EX = 00000078
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000000a8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000074
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000070
+WriteBackData = 00000000
+
+                 240
+Op = 000000, Funct = 001000
+                 240
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 1
+                 240
+Stall = 0
+Flush = 1
+PC_PPotential = 00000084
+PC_Potential = 0000003c
+PC_Next = 00000054
+PC_Cur = 00000080
+Instr_IF = 00000000
+PC_4_IF = 00000084
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 03e00008
+PC_4_ID = 00000080
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 1
+Rs_ID = 0000003c
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000008
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 1
+ResultSel_EX = 1
+AluOp_EX = 1
+AluSrc_EX = 0
+Rs_EX = 0000001f
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = fffffff6
+PC_4_EX = 0000007c
+SrcB = 00000000
+Result_EX = 0000001f
+Equal = 0
+BranchTaken = 1
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000078
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000074
+WriteBackData = 00000000
+
+                 250
+Op = 000000, Funct = 000000
+                 250
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 250
+Stall = 0
+Flush = 0
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000000
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001f
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000007c
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000078
+WriteBackData = 00000000
+
+                 260
+Op = 001000, Funct = 111111
+                 260
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 260
+Stall = 0
+Flush = 0
+PC_PPotential = 0000005c
+PC_Potential = 0000005c
+PC_Next = 0000005c
+PC_Cur = 00000058
+Instr_IF = 00000000
+PC_4_IF = 0000005c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 2231ffff
+PC_4_ID = 00000058
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 0000001f
+Rt_ID = 0000001f
+WriteRegA_ID = 11
+SignImm_ID = ffffffff
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 0000001f
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000007c
+WriteBackData = 0000001f
+
+                 270
+Op = 000000, Funct = 000000
+                 270
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 270
+Stall = 0
+Flush = 0
+PC_PPotential = 00000060
+PC_Potential = 00000060
+PC_Next = 00000060
+PC_Cur = 0000005c
+Instr_IF = 00000000
+PC_4_IF = 00000060
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000005c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 1
+Rs_EX = 0000001f
+Rt_EX = 0000001f
+WriteRegA_EX = 11
+SignImm_EX = ffffffff
+PC_4_EX = 00000058
+SrcB = ffffffff
+Result_EX = 0000001e
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 280
+Stall = 0
+Flush = 0
+PC_PPotential = 00000064
+PC_Potential = 00000064
+PC_Next = 00000064
+PC_Cur = 00000060
+Instr_IF = 00000000
+PC_4_IF = 00000064
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000060
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000005c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000005c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001e
+WriteData = 0000001f
+WriteRegA_MEM = 11
+PC_4_MEM = 00000058
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 290
+Stall = 0
+Flush = 0
+PC_PPotential = 00000068
+PC_Potential = 00000068
+PC_Next = 00000068
+PC_Cur = 00000064
+Instr_IF = 00112020
+PC_4_IF = 00000068
+JumpAddr = 00448080
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000064
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000060
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000060
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000005c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001e
+DMRD_WB = 00000000
+WriteRegA_WB = 11
+PC_4_WB = 00000058
+WriteBackData = 0000001e
+
+                 295
+reg[17] = 0000001e
+                 300
+Op = 000000, Funct = 100000
+                 300
+RegDst = 1, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 300
+Stall = 0
+Flush = 0
+PC_PPotential = 0000006c
+PC_Potential = 0000006c
+PC_Next = 0000006c
+PC_Cur = 00000068
+Instr_IF = 00000000
+PC_4_IF = 0000006c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00112020
+PC_4_ID = 00000068
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 0000001e
+WriteRegA_ID = 04
+SignImm_ID = 00002020
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000064
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000064
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000060
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000005c
+WriteBackData = 00000000
+
+                 310
+Op = 000000, Funct = 000000
+                 310
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 310
+Stall = 0
+Flush = 0
+PC_PPotential = 00000070
+PC_Potential = 00000070
+PC_Next = 00000070
+PC_Cur = 0000006c
+Instr_IF = 00000000
+PC_4_IF = 00000070
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000006c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 0000001e
+WriteRegA_EX = 04
+SignImm_EX = 00002020
+PC_4_EX = 00000068
+SrcB = 0000001e
+Result_EX = 0000001e
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000080e8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000064
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000060
+WriteBackData = 00000000
+
+                 320
+Stall = 0
+Flush = 0
+PC_PPotential = 00000074
+PC_Potential = 00000074
+PC_Next = 00000074
+PC_Cur = 00000070
+Instr_IF = 00000000
+PC_4_IF = 00000074
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000070
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000006c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000006c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001e
+WriteData = 0000001e
+WriteRegA_MEM = 04
+PC_4_MEM = 00000068
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000064
+WriteBackData = 00000000
+
+                 330
+Stall = 0
+Flush = 0
+PC_PPotential = 00000078
+PC_Potential = 00000078
+PC_Next = 00000078
+PC_Cur = 00000074
+Instr_IF = 0000000c
+PC_4_IF = 00000078
+JumpAddr = 00000030
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000074
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000070
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000070
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000006c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001e
+DMRD_WB = 00000000
+WriteRegA_WB = 04
+PC_4_WB = 00000068
+WriteBackData = 0000001e
+
+                 335
+reg[ 4] = 0000001e
+                 340
+Op = 000000, Funct = 001100
+                 340
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 340
+Stall = 0
+Flush = 0
+PC_PPotential = 0000007c
+PC_Potential = 0000007c
+PC_Next = 0000007c
+PC_Cur = 00000078
+Instr_IF = 1620fff6
+PC_4_IF = 0000007c
+JumpAddr = 0883ffd8
+Jump = 0
+Instr_ID = 0000000c
+PC_4_ID = 00000078
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 0000000c
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000074
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000074
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000070
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000006c
+WriteBackData = 00000000
+
+                 350
+Op = 000101, Funct = 110110
+                 350
+RegDst = 0, AluSrc = 0, AluOp = 1, ResultSel = 1,  Branch = 1, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 350
+Stall = 0
+Flush = 0
+PC_PPotential = 00000080
+PC_Potential = 00000080
+PC_Next = 00000080
+PC_Cur = 0000007c
+Instr_IF = 03e00008
+PC_4_IF = 00000080
+JumpAddr = 0f800020
+Jump = 0
+Instr_ID = 1620fff6
+PC_4_ID = 0000007c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 1
+ResultSel_ID = 1
+Branch_ID = 1
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 0000001e
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = fffffff6
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 0000000c
+PC_4_EX = 00000078
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000000a8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000074
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000070
+WriteBackData = 00000000
+
+                 360
+Op = 000000, Funct = 001000
+                 360
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 1
+                 360
+Stall = 0
+Flush = 1
+PC_PPotential = 00000084
+PC_Potential = 0000003c
+PC_Next = 00000054
+PC_Cur = 00000080
+Instr_IF = 00000000
+PC_4_IF = 00000084
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 03e00008
+PC_4_ID = 00000080
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 1
+Rs_ID = 0000003c
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000008
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 1
+ResultSel_EX = 1
+AluOp_EX = 1
+AluSrc_EX = 0
+Rs_EX = 0000001e
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = fffffff6
+PC_4_EX = 0000007c
+SrcB = 00000000
+Result_EX = 0000001e
+Equal = 0
+BranchTaken = 1
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000078
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000074
+WriteBackData = 00000000
+
+                 370
+Op = 000000, Funct = 000000
+                 370
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 370
+Stall = 0
+Flush = 0
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000000
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001e
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000007c
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000078
+WriteBackData = 00000000
+
+                 380
+Op = 001000, Funct = 111111
+                 380
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 380
+Stall = 0
+Flush = 0
+PC_PPotential = 0000005c
+PC_Potential = 0000005c
+PC_Next = 0000005c
+PC_Cur = 00000058
+Instr_IF = 00000000
+PC_4_IF = 0000005c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 2231ffff
+PC_4_ID = 00000058
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 0000001e
+Rt_ID = 0000001e
+WriteRegA_ID = 11
+SignImm_ID = ffffffff
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 0000001e
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000007c
+WriteBackData = 0000001e
+
+                 390
+Op = 000000, Funct = 000000
+                 390
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 390
+Stall = 0
+Flush = 0
+PC_PPotential = 00000060
+PC_Potential = 00000060
+PC_Next = 00000060
+PC_Cur = 0000005c
+Instr_IF = 00000000
+PC_4_IF = 00000060
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000005c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 1
+Rs_EX = 0000001e
+Rt_EX = 0000001e
+WriteRegA_EX = 11
+SignImm_EX = ffffffff
+PC_4_EX = 00000058
+SrcB = ffffffff
+Result_EX = 0000001d
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 400
+Stall = 0
+Flush = 0
+PC_PPotential = 00000064
+PC_Potential = 00000064
+PC_Next = 00000064
+PC_Cur = 00000060
+Instr_IF = 00000000
+PC_4_IF = 00000064
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000060
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000005c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000005c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001d
+WriteData = 0000001e
+WriteRegA_MEM = 11
+PC_4_MEM = 00000058
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 410
+Stall = 0
+Flush = 0
+PC_PPotential = 00000068
+PC_Potential = 00000068
+PC_Next = 00000068
+PC_Cur = 00000064
+Instr_IF = 00112020
+PC_4_IF = 00000068
+JumpAddr = 00448080
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000064
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000060
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000060
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000005c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001d
+DMRD_WB = 00000000
+WriteRegA_WB = 11
+PC_4_WB = 00000058
+WriteBackData = 0000001d
+
+                 415
+reg[17] = 0000001d
+                 420
+Op = 000000, Funct = 100000
+                 420
+RegDst = 1, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 420
+Stall = 0
+Flush = 0
+PC_PPotential = 0000006c
+PC_Potential = 0000006c
+PC_Next = 0000006c
+PC_Cur = 00000068
+Instr_IF = 00000000
+PC_4_IF = 0000006c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00112020
+PC_4_ID = 00000068
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 0000001d
+WriteRegA_ID = 04
+SignImm_ID = 00002020
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000064
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000064
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000060
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000005c
+WriteBackData = 00000000
+
+                 430
+Op = 000000, Funct = 000000
+                 430
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 430
+Stall = 0
+Flush = 0
+PC_PPotential = 00000070
+PC_Potential = 00000070
+PC_Next = 00000070
+PC_Cur = 0000006c
+Instr_IF = 00000000
+PC_4_IF = 00000070
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000006c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 0000001d
+WriteRegA_EX = 04
+SignImm_EX = 00002020
+PC_4_EX = 00000068
+SrcB = 0000001d
+Result_EX = 0000001d
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000080e8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000064
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000060
+WriteBackData = 00000000
+
+                 440
+Stall = 0
+Flush = 0
+PC_PPotential = 00000074
+PC_Potential = 00000074
+PC_Next = 00000074
+PC_Cur = 00000070
+Instr_IF = 00000000
+PC_4_IF = 00000074
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000070
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000006c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000006c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001d
+WriteData = 0000001d
+WriteRegA_MEM = 04
+PC_4_MEM = 00000068
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000064
+WriteBackData = 00000000
+
+                 450
+Stall = 0
+Flush = 0
+PC_PPotential = 00000078
+PC_Potential = 00000078
+PC_Next = 00000078
+PC_Cur = 00000074
+Instr_IF = 0000000c
+PC_4_IF = 00000078
+JumpAddr = 00000030
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000074
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000070
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000070
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000006c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001d
+DMRD_WB = 00000000
+WriteRegA_WB = 04
+PC_4_WB = 00000068
+WriteBackData = 0000001d
+
+                 455
+reg[ 4] = 0000001d
+                 460
+Op = 000000, Funct = 001100
+                 460
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 460
+Stall = 0
+Flush = 0
+PC_PPotential = 0000007c
+PC_Potential = 0000007c
+PC_Next = 0000007c
+PC_Cur = 00000078
+Instr_IF = 1620fff6
+PC_4_IF = 0000007c
+JumpAddr = 0883ffd8
+Jump = 0
+Instr_ID = 0000000c
+PC_4_ID = 00000078
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 0000000c
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000074
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000074
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000070
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000006c
+WriteBackData = 00000000
+
+                 470
+Op = 000101, Funct = 110110
+                 470
+RegDst = 0, AluSrc = 0, AluOp = 1, ResultSel = 1,  Branch = 1, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 470
+Stall = 0
+Flush = 0
+PC_PPotential = 00000080
+PC_Potential = 00000080
+PC_Next = 00000080
+PC_Cur = 0000007c
+Instr_IF = 03e00008
+PC_4_IF = 00000080
+JumpAddr = 0f800020
+Jump = 0
+Instr_ID = 1620fff6
+PC_4_ID = 0000007c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 1
+ResultSel_ID = 1
+Branch_ID = 1
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 0000001d
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = fffffff6
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 0000000c
+PC_4_EX = 00000078
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000000a8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000074
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000070
+WriteBackData = 00000000
+
+                 480
+Op = 000000, Funct = 001000
+                 480
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 1
+                 480
+Stall = 0
+Flush = 1
+PC_PPotential = 00000084
+PC_Potential = 0000003c
+PC_Next = 00000054
+PC_Cur = 00000080
+Instr_IF = 00000000
+PC_4_IF = 00000084
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 03e00008
+PC_4_ID = 00000080
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 1
+Rs_ID = 0000003c
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000008
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 1
+ResultSel_EX = 1
+AluOp_EX = 1
+AluSrc_EX = 0
+Rs_EX = 0000001d
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = fffffff6
+PC_4_EX = 0000007c
+SrcB = 00000000
+Result_EX = 0000001d
+Equal = 0
+BranchTaken = 1
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000078
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000074
+WriteBackData = 00000000
+
+                 490
+Op = 000000, Funct = 000000
+                 490
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 490
+Stall = 0
+Flush = 0
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000000
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001d
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000007c
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000078
+WriteBackData = 00000000
+
+                 500
+Op = 001000, Funct = 111111
+                 500
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 500
+Stall = 0
+Flush = 0
+PC_PPotential = 0000005c
+PC_Potential = 0000005c
+PC_Next = 0000005c
+PC_Cur = 00000058
+Instr_IF = 00000000
+PC_4_IF = 0000005c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 2231ffff
+PC_4_ID = 00000058
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 0000001d
+Rt_ID = 0000001d
+WriteRegA_ID = 11
+SignImm_ID = ffffffff
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 0000001d
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000007c
+WriteBackData = 0000001d
+
+                 510
+Op = 000000, Funct = 000000
+                 510
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 510
+Stall = 0
+Flush = 0
+PC_PPotential = 00000060
+PC_Potential = 00000060
+PC_Next = 00000060
+PC_Cur = 0000005c
+Instr_IF = 00000000
+PC_4_IF = 00000060
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000005c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 1
+Rs_EX = 0000001d
+Rt_EX = 0000001d
+WriteRegA_EX = 11
+SignImm_EX = ffffffff
+PC_4_EX = 00000058
+SrcB = ffffffff
+Result_EX = 0000001c
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 520
+Stall = 0
+Flush = 0
+PC_PPotential = 00000064
+PC_Potential = 00000064
+PC_Next = 00000064
+PC_Cur = 00000060
+Instr_IF = 00000000
+PC_4_IF = 00000064
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000060
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000005c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000005c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001c
+WriteData = 0000001d
+WriteRegA_MEM = 11
+PC_4_MEM = 00000058
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 530
+Stall = 0
+Flush = 0
+PC_PPotential = 00000068
+PC_Potential = 00000068
+PC_Next = 00000068
+PC_Cur = 00000064
+Instr_IF = 00112020
+PC_4_IF = 00000068
+JumpAddr = 00448080
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000064
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000060
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000060
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000005c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001c
+DMRD_WB = 00000000
+WriteRegA_WB = 11
+PC_4_WB = 00000058
+WriteBackData = 0000001c
+
+                 535
+reg[17] = 0000001c
+                 540
+Op = 000000, Funct = 100000
+                 540
+RegDst = 1, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 540
+Stall = 0
+Flush = 0
+PC_PPotential = 0000006c
+PC_Potential = 0000006c
+PC_Next = 0000006c
+PC_Cur = 00000068
+Instr_IF = 00000000
+PC_4_IF = 0000006c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00112020
+PC_4_ID = 00000068
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 0000001c
+WriteRegA_ID = 04
+SignImm_ID = 00002020
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000064
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000064
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000060
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000005c
+WriteBackData = 00000000
+
+                 550
+Op = 000000, Funct = 000000
+                 550
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 550
+Stall = 0
+Flush = 0
+PC_PPotential = 00000070
+PC_Potential = 00000070
+PC_Next = 00000070
+PC_Cur = 0000006c
+Instr_IF = 00000000
+PC_4_IF = 00000070
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000006c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 0000001c
+WriteRegA_EX = 04
+SignImm_EX = 00002020
+PC_4_EX = 00000068
+SrcB = 0000001c
+Result_EX = 0000001c
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000080e8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000064
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000060
+WriteBackData = 00000000
+
+                 560
+Stall = 0
+Flush = 0
+PC_PPotential = 00000074
+PC_Potential = 00000074
+PC_Next = 00000074
+PC_Cur = 00000070
+Instr_IF = 00000000
+PC_4_IF = 00000074
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000070
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000006c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000006c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001c
+WriteData = 0000001c
+WriteRegA_MEM = 04
+PC_4_MEM = 00000068
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000064
+WriteBackData = 00000000
+
+                 570
+Stall = 0
+Flush = 0
+PC_PPotential = 00000078
+PC_Potential = 00000078
+PC_Next = 00000078
+PC_Cur = 00000074
+Instr_IF = 0000000c
+PC_4_IF = 00000078
+JumpAddr = 00000030
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000074
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000070
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000070
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000006c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001c
+DMRD_WB = 00000000
+WriteRegA_WB = 04
+PC_4_WB = 00000068
+WriteBackData = 0000001c
+
+                 575
+reg[ 4] = 0000001c
+                 580
+Op = 000000, Funct = 001100
+                 580
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 580
+Stall = 0
+Flush = 0
+PC_PPotential = 0000007c
+PC_Potential = 0000007c
+PC_Next = 0000007c
+PC_Cur = 00000078
+Instr_IF = 1620fff6
+PC_4_IF = 0000007c
+JumpAddr = 0883ffd8
+Jump = 0
+Instr_ID = 0000000c
+PC_4_ID = 00000078
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 0000000c
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000074
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000074
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000070
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000006c
+WriteBackData = 00000000
+
+                 590
+Op = 000101, Funct = 110110
+                 590
+RegDst = 0, AluSrc = 0, AluOp = 1, ResultSel = 1,  Branch = 1, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 590
+Stall = 0
+Flush = 0
+PC_PPotential = 00000080
+PC_Potential = 00000080
+PC_Next = 00000080
+PC_Cur = 0000007c
+Instr_IF = 03e00008
+PC_4_IF = 00000080
+JumpAddr = 0f800020
+Jump = 0
+Instr_ID = 1620fff6
+PC_4_ID = 0000007c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 1
+ResultSel_ID = 1
+Branch_ID = 1
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 0000001c
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = fffffff6
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 0000000c
+PC_4_EX = 00000078
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000000a8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000074
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000070
+WriteBackData = 00000000
+
+                 600
+Op = 000000, Funct = 001000
+                 600
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 1
+                 600
+Stall = 0
+Flush = 1
+PC_PPotential = 00000084
+PC_Potential = 0000003c
+PC_Next = 00000054
+PC_Cur = 00000080
+Instr_IF = 00000000
+PC_4_IF = 00000084
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 03e00008
+PC_4_ID = 00000080
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 1
+Rs_ID = 0000003c
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000008
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 1
+ResultSel_EX = 1
+AluOp_EX = 1
+AluSrc_EX = 0
+Rs_EX = 0000001c
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = fffffff6
+PC_4_EX = 0000007c
+SrcB = 00000000
+Result_EX = 0000001c
+Equal = 0
+BranchTaken = 1
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000078
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000074
+WriteBackData = 00000000
+
+                 610
+Op = 000000, Funct = 000000
+                 610
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 610
+Stall = 0
+Flush = 0
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000000
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001c
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000007c
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000078
+WriteBackData = 00000000
+
+                 620
+Op = 001000, Funct = 111111
+                 620
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 620
+Stall = 0
+Flush = 0
+PC_PPotential = 0000005c
+PC_Potential = 0000005c
+PC_Next = 0000005c
+PC_Cur = 00000058
+Instr_IF = 00000000
+PC_4_IF = 0000005c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 2231ffff
+PC_4_ID = 00000058
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 0000001c
+Rt_ID = 0000001c
+WriteRegA_ID = 11
+SignImm_ID = ffffffff
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 0000001c
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000007c
+WriteBackData = 0000001c
+
+                 630
+Op = 000000, Funct = 000000
+                 630
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 630
+Stall = 0
+Flush = 0
+PC_PPotential = 00000060
+PC_Potential = 00000060
+PC_Next = 00000060
+PC_Cur = 0000005c
+Instr_IF = 00000000
+PC_4_IF = 00000060
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000005c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 1
+Rs_EX = 0000001c
+Rt_EX = 0000001c
+WriteRegA_EX = 11
+SignImm_EX = ffffffff
+PC_4_EX = 00000058
+SrcB = ffffffff
+Result_EX = 0000001b
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 640
+Stall = 0
+Flush = 0
+PC_PPotential = 00000064
+PC_Potential = 00000064
+PC_Next = 00000064
+PC_Cur = 00000060
+Instr_IF = 00000000
+PC_4_IF = 00000064
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000060
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000005c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000005c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001b
+WriteData = 0000001c
+WriteRegA_MEM = 11
+PC_4_MEM = 00000058
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 650
+Stall = 0
+Flush = 0
+PC_PPotential = 00000068
+PC_Potential = 00000068
+PC_Next = 00000068
+PC_Cur = 00000064
+Instr_IF = 00112020
+PC_4_IF = 00000068
+JumpAddr = 00448080
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000064
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000060
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000060
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000005c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001b
+DMRD_WB = 00000000
+WriteRegA_WB = 11
+PC_4_WB = 00000058
+WriteBackData = 0000001b
+
+                 655
+reg[17] = 0000001b
+                 660
+Op = 000000, Funct = 100000
+                 660
+RegDst = 1, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 660
+Stall = 0
+Flush = 0
+PC_PPotential = 0000006c
+PC_Potential = 0000006c
+PC_Next = 0000006c
+PC_Cur = 00000068
+Instr_IF = 00000000
+PC_4_IF = 0000006c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00112020
+PC_4_ID = 00000068
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 0000001b
+WriteRegA_ID = 04
+SignImm_ID = 00002020
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000064
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000064
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000060
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000005c
+WriteBackData = 00000000
+
+                 670
+Op = 000000, Funct = 000000
+                 670
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 670
+Stall = 0
+Flush = 0
+PC_PPotential = 00000070
+PC_Potential = 00000070
+PC_Next = 00000070
+PC_Cur = 0000006c
+Instr_IF = 00000000
+PC_4_IF = 00000070
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000006c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 0000001b
+WriteRegA_EX = 04
+SignImm_EX = 00002020
+PC_4_EX = 00000068
+SrcB = 0000001b
+Result_EX = 0000001b
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000080e8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000064
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000060
+WriteBackData = 00000000
+
+                 680
+Stall = 0
+Flush = 0
+PC_PPotential = 00000074
+PC_Potential = 00000074
+PC_Next = 00000074
+PC_Cur = 00000070
+Instr_IF = 00000000
+PC_4_IF = 00000074
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000070
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000006c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000006c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001b
+WriteData = 0000001b
+WriteRegA_MEM = 04
+PC_4_MEM = 00000068
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000064
+WriteBackData = 00000000
+
+                 690
+Stall = 0
+Flush = 0
+PC_PPotential = 00000078
+PC_Potential = 00000078
+PC_Next = 00000078
+PC_Cur = 00000074
+Instr_IF = 0000000c
+PC_4_IF = 00000078
+JumpAddr = 00000030
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000074
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000070
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000070
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000006c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001b
+DMRD_WB = 00000000
+WriteRegA_WB = 04
+PC_4_WB = 00000068
+WriteBackData = 0000001b
+
+                 695
+reg[ 4] = 0000001b
+                 700
+Op = 000000, Funct = 001100
+                 700
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 700
+Stall = 0
+Flush = 0
+PC_PPotential = 0000007c
+PC_Potential = 0000007c
+PC_Next = 0000007c
+PC_Cur = 00000078
+Instr_IF = 1620fff6
+PC_4_IF = 0000007c
+JumpAddr = 0883ffd8
+Jump = 0
+Instr_ID = 0000000c
+PC_4_ID = 00000078
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 0000000c
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000074
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000074
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000070
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000006c
+WriteBackData = 00000000
+
+                 710
+Op = 000101, Funct = 110110
+                 710
+RegDst = 0, AluSrc = 0, AluOp = 1, ResultSel = 1,  Branch = 1, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 710
+Stall = 0
+Flush = 0
+PC_PPotential = 00000080
+PC_Potential = 00000080
+PC_Next = 00000080
+PC_Cur = 0000007c
+Instr_IF = 03e00008
+PC_4_IF = 00000080
+JumpAddr = 0f800020
+Jump = 0
+Instr_ID = 1620fff6
+PC_4_ID = 0000007c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 1
+ResultSel_ID = 1
+Branch_ID = 1
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 0000001b
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = fffffff6
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 0000000c
+PC_4_EX = 00000078
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000000a8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000074
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000070
+WriteBackData = 00000000
+
+                 720
+Op = 000000, Funct = 001000
+                 720
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 1
+                 720
+Stall = 0
+Flush = 1
+PC_PPotential = 00000084
+PC_Potential = 0000003c
+PC_Next = 00000054
+PC_Cur = 00000080
+Instr_IF = 00000000
+PC_4_IF = 00000084
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 03e00008
+PC_4_ID = 00000080
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 1
+Rs_ID = 0000003c
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000008
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 1
+ResultSel_EX = 1
+AluOp_EX = 1
+AluSrc_EX = 0
+Rs_EX = 0000001b
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = fffffff6
+PC_4_EX = 0000007c
+SrcB = 00000000
+Result_EX = 0000001b
+Equal = 0
+BranchTaken = 1
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000078
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000074
+WriteBackData = 00000000
+
+                 730
+Op = 000000, Funct = 000000
+                 730
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 730
+Stall = 0
+Flush = 0
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000000
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001b
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000007c
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000078
+WriteBackData = 00000000
+
+                 740
+Op = 001000, Funct = 111111
+                 740
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 740
+Stall = 0
+Flush = 0
+PC_PPotential = 0000005c
+PC_Potential = 0000005c
+PC_Next = 0000005c
+PC_Cur = 00000058
+Instr_IF = 00000000
+PC_4_IF = 0000005c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 2231ffff
+PC_4_ID = 00000058
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 0000001b
+Rt_ID = 0000001b
+WriteRegA_ID = 11
+SignImm_ID = ffffffff
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 0000001b
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000007c
+WriteBackData = 0000001b
+
+                 750
+Op = 000000, Funct = 000000
+                 750
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 750
+Stall = 0
+Flush = 0
+PC_PPotential = 00000060
+PC_Potential = 00000060
+PC_Next = 00000060
+PC_Cur = 0000005c
+Instr_IF = 00000000
+PC_4_IF = 00000060
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000005c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 1
+Rs_EX = 0000001b
+Rt_EX = 0000001b
+WriteRegA_EX = 11
+SignImm_EX = ffffffff
+PC_4_EX = 00000058
+SrcB = ffffffff
+Result_EX = 0000001a
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 760
+Stall = 0
+Flush = 0
+PC_PPotential = 00000064
+PC_Potential = 00000064
+PC_Next = 00000064
+PC_Cur = 00000060
+Instr_IF = 00000000
+PC_4_IF = 00000064
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000060
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000005c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000005c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001a
+WriteData = 0000001b
+WriteRegA_MEM = 11
+PC_4_MEM = 00000058
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 770
+Stall = 0
+Flush = 0
+PC_PPotential = 00000068
+PC_Potential = 00000068
+PC_Next = 00000068
+PC_Cur = 00000064
+Instr_IF = 00112020
+PC_4_IF = 00000068
+JumpAddr = 00448080
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000064
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000060
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000060
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000005c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001a
+DMRD_WB = 00000000
+WriteRegA_WB = 11
+PC_4_WB = 00000058
+WriteBackData = 0000001a
+
+                 775
+reg[17] = 0000001a
+                 780
+Op = 000000, Funct = 100000
+                 780
+RegDst = 1, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 780
+Stall = 0
+Flush = 0
+PC_PPotential = 0000006c
+PC_Potential = 0000006c
+PC_Next = 0000006c
+PC_Cur = 00000068
+Instr_IF = 00000000
+PC_4_IF = 0000006c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00112020
+PC_4_ID = 00000068
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 0000001a
+WriteRegA_ID = 04
+SignImm_ID = 00002020
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000064
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000064
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000060
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000005c
+WriteBackData = 00000000
+
+                 790
+Op = 000000, Funct = 000000
+                 790
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 790
+Stall = 0
+Flush = 0
+PC_PPotential = 00000070
+PC_Potential = 00000070
+PC_Next = 00000070
+PC_Cur = 0000006c
+Instr_IF = 00000000
+PC_4_IF = 00000070
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000006c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 0000001a
+WriteRegA_EX = 04
+SignImm_EX = 00002020
+PC_4_EX = 00000068
+SrcB = 0000001a
+Result_EX = 0000001a
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000080e8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000064
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000060
+WriteBackData = 00000000
+
+                 800
+Stall = 0
+Flush = 0
+PC_PPotential = 00000074
+PC_Potential = 00000074
+PC_Next = 00000074
+PC_Cur = 00000070
+Instr_IF = 00000000
+PC_4_IF = 00000074
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000070
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000006c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000006c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001a
+WriteData = 0000001a
+WriteRegA_MEM = 04
+PC_4_MEM = 00000068
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000064
+WriteBackData = 00000000
+
+                 810
+Stall = 0
+Flush = 0
+PC_PPotential = 00000078
+PC_Potential = 00000078
+PC_Next = 00000078
+PC_Cur = 00000074
+Instr_IF = 0000000c
+PC_4_IF = 00000078
+JumpAddr = 00000030
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000074
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000070
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000070
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000006c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 0000001a
+DMRD_WB = 00000000
+WriteRegA_WB = 04
+PC_4_WB = 00000068
+WriteBackData = 0000001a
+
+                 815
+reg[ 4] = 0000001a
+                 820
+Op = 000000, Funct = 001100
+                 820
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 820
+Stall = 0
+Flush = 0
+PC_PPotential = 0000007c
+PC_Potential = 0000007c
+PC_Next = 0000007c
+PC_Cur = 00000078
+Instr_IF = 1620fff6
+PC_4_IF = 0000007c
+JumpAddr = 0883ffd8
+Jump = 0
+Instr_ID = 0000000c
+PC_4_ID = 00000078
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 0000000c
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000074
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000074
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000070
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000006c
+WriteBackData = 00000000
+
+                 830
+Op = 000101, Funct = 110110
+                 830
+RegDst = 0, AluSrc = 0, AluOp = 1, ResultSel = 1,  Branch = 1, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 830
+Stall = 0
+Flush = 0
+PC_PPotential = 00000080
+PC_Potential = 00000080
+PC_Next = 00000080
+PC_Cur = 0000007c
+Instr_IF = 03e00008
+PC_4_IF = 00000080
+JumpAddr = 0f800020
+Jump = 0
+Instr_ID = 1620fff6
+PC_4_ID = 0000007c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 1
+ResultSel_ID = 1
+Branch_ID = 1
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 0000001a
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = fffffff6
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 0000000c
+PC_4_EX = 00000078
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000000a8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000074
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000070
+WriteBackData = 00000000
+
+                 840
+Op = 000000, Funct = 001000
+                 840
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 1
+                 840
+Stall = 0
+Flush = 1
+PC_PPotential = 00000084
+PC_Potential = 0000003c
+PC_Next = 00000054
+PC_Cur = 00000080
+Instr_IF = 00000000
+PC_4_IF = 00000084
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 03e00008
+PC_4_ID = 00000080
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 1
+Rs_ID = 0000003c
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000008
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 1
+ResultSel_EX = 1
+AluOp_EX = 1
+AluSrc_EX = 0
+Rs_EX = 0000001a
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = fffffff6
+PC_4_EX = 0000007c
+SrcB = 00000000
+Result_EX = 0000001a
+Equal = 0
+BranchTaken = 1
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000078
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000074
+WriteBackData = 00000000
+
+                 850
+Op = 000000, Funct = 000000
+                 850
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 850
+Stall = 0
+Flush = 0
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000000
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 0000001a
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000007c
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000078
+WriteBackData = 00000000
+
+                 860
+Op = 001000, Funct = 111111
+                 860
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 860
+Stall = 0
+Flush = 0
+PC_PPotential = 0000005c
+PC_Potential = 0000005c
+PC_Next = 0000005c
+PC_Cur = 00000058
+Instr_IF = 00000000
+PC_4_IF = 0000005c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 2231ffff
+PC_4_ID = 00000058
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 0000001a
+Rt_ID = 0000001a
+WriteRegA_ID = 11
+SignImm_ID = ffffffff
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 0000001a
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000007c
+WriteBackData = 0000001a
+
+                 870
+Op = 000000, Funct = 000000
+                 870
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 870
+Stall = 0
+Flush = 0
+PC_PPotential = 00000060
+PC_Potential = 00000060
+PC_Next = 00000060
+PC_Cur = 0000005c
+Instr_IF = 00000000
+PC_4_IF = 00000060
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000005c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 1
+Rs_EX = 0000001a
+Rt_EX = 0000001a
+WriteRegA_EX = 11
+SignImm_EX = ffffffff
+PC_4_EX = 00000058
+SrcB = ffffffff
+Result_EX = 00000019
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 880
+Stall = 0
+Flush = 0
+PC_PPotential = 00000064
+PC_Potential = 00000064
+PC_Next = 00000064
+PC_Cur = 00000060
+Instr_IF = 00000000
+PC_4_IF = 00000064
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000060
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000005c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000005c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000019
+WriteData = 0000001a
+WriteRegA_MEM = 11
+PC_4_MEM = 00000058
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                 890
+Stall = 0
+Flush = 0
+PC_PPotential = 00000068
+PC_Potential = 00000068
+PC_Next = 00000068
+PC_Cur = 00000064
+Instr_IF = 00112020
+PC_4_IF = 00000068
+JumpAddr = 00448080
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000064
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000060
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000060
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000005c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 00000019
+DMRD_WB = 00000000
+WriteRegA_WB = 11
+PC_4_WB = 00000058
+WriteBackData = 00000019
+
+                 895
+reg[17] = 00000019
+                 900
+Op = 000000, Funct = 100000
+                 900
+RegDst = 1, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 900
+Stall = 0
+Flush = 0
+PC_PPotential = 0000006c
+PC_Potential = 0000006c
+PC_Next = 0000006c
+PC_Cur = 00000068
+Instr_IF = 00000000
+PC_4_IF = 0000006c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00112020
+PC_4_ID = 00000068
+RegDst = 1
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000019
+WriteRegA_ID = 04
+SignImm_ID = 00002020
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000064
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000064
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000060
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000005c
+WriteBackData = 00000000
+
+                 910
+Op = 000000, Funct = 000000
+                 910
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 910
+Stall = 0
+Flush = 0
+PC_PPotential = 00000070
+PC_Potential = 00000070
+PC_Next = 00000070
+PC_Cur = 0000006c
+Instr_IF = 00000000
+PC_4_IF = 00000070
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000006c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000019
+WriteRegA_EX = 04
+SignImm_EX = 00002020
+PC_4_EX = 00000068
+SrcB = 00000019
+Result_EX = 00000019
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000080e8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000064
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000060
+WriteBackData = 00000000
+
+                 920
+Stall = 0
+Flush = 0
+PC_PPotential = 00000074
+PC_Potential = 00000074
+PC_Next = 00000074
+PC_Cur = 00000070
+Instr_IF = 00000000
+PC_4_IF = 00000074
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000070
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000006c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000006c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000019
+WriteData = 00000019
+WriteRegA_MEM = 04
+PC_4_MEM = 00000068
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000064
+WriteBackData = 00000000
+
+                 930
+Stall = 0
+Flush = 0
+PC_PPotential = 00000078
+PC_Potential = 00000078
+PC_Next = 00000078
+PC_Cur = 00000074
+Instr_IF = 0000000c
+PC_4_IF = 00000078
+JumpAddr = 00000030
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000074
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000070
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000070
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000006c
+DMRD_MEM = 00000000
+RegWrite_WB = 1
+WriteToReg_WB = 0
+Result_WB = 00000019
+DMRD_WB = 00000000
+WriteRegA_WB = 04
+PC_4_WB = 00000068
+WriteBackData = 00000019
+
+                 935
+reg[ 4] = 00000019
+                 940
+Op = 000000, Funct = 001100
+                 940
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 940
+Stall = 0
+Flush = 0
+PC_PPotential = 0000007c
+PC_Potential = 0000007c
+PC_Next = 0000007c
+PC_Cur = 00000078
+Instr_IF = 1620fff6
+PC_4_IF = 0000007c
+JumpAddr = 0883ffd8
+Jump = 0
+Instr_ID = 0000000c
+PC_4_ID = 00000078
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 0000000c
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000074
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000074
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000070
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000006c
+WriteBackData = 00000000
+
+                 950
+Op = 000101, Funct = 110110
+                 950
+RegDst = 0, AluSrc = 0, AluOp = 1, ResultSel = 1,  Branch = 1, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 950
+Stall = 0
+Flush = 0
+PC_PPotential = 00000080
+PC_Potential = 00000080
+PC_Next = 00000080
+PC_Cur = 0000007c
+Instr_IF = 03e00008
+PC_4_IF = 00000080
+JumpAddr = 0f800020
+Jump = 0
+Instr_ID = 1620fff6
+PC_4_ID = 0000007c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 1
+ResultSel_ID = 1
+Branch_ID = 1
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000019
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = fffffff6
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 0000000c
+PC_4_EX = 00000078
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 000000a8
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000074
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000070
+WriteBackData = 00000000
+
+                 960
+Op = 000000, Funct = 001000
+                 960
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 1
+                 960
+Stall = 0
+Flush = 1
+PC_PPotential = 00000084
+PC_Potential = 0000003c
+PC_Next = 00000054
+PC_Cur = 00000080
+Instr_IF = 00000000
+PC_4_IF = 00000084
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 03e00008
+PC_4_ID = 00000080
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 1
+Rs_ID = 0000003c
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000008
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 1
+ResultSel_EX = 1
+AluOp_EX = 1
+AluSrc_EX = 0
+Rs_EX = 00000019
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = fffffff6
+PC_4_EX = 0000007c
+SrcB = 00000000
+Result_EX = 00000019
+Equal = 0
+BranchTaken = 1
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000078
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000074
+WriteBackData = 00000000
+
+                 970
+Op = 000000, Funct = 000000
+                 970
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 970
+Stall = 0
+Flush = 0
+PC_PPotential = 00000058
+PC_Potential = 00000058
+PC_Next = 00000058
+PC_Cur = 00000054
+Instr_IF = 2231ffff
+PC_4_IF = 00000058
+JumpAddr = 08c7fffc
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000000
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000019
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 0000007c
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000078
+WriteBackData = 00000000
+
+                 980
+Op = 001000, Funct = 111111
+                 980
+RegDst = 0, AluSrc = 1, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 1, JumpReg = 0
+                 980
+Stall = 0
+Flush = 0
+PC_PPotential = 0000005c
+PC_Potential = 0000005c
+PC_Next = 0000005c
+PC_Cur = 00000058
+Instr_IF = 00000000
+PC_4_IF = 0000005c
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 2231ffff
+PC_4_ID = 00000058
+RegDst = 0
+AluSrc_ID = 1
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 1
+JumpReg = 0
+Rs_ID = 00000019
+Rt_ID = 00000019
+WriteRegA_ID = 11
+SignImm_ID = ffffffff
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 00000000
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000000
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000019
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 0000007c
+WriteBackData = 00000019
+
+                 990
+Op = 000000, Funct = 000000
+                 990
+RegDst = 0, AluSrc = 0, AluOp = 0, ResultSel = 0,  Branch = 0, MemWrite = 0, WriteToReg = 0, RegWrite = 0, JumpReg = 0
+                 990
+Stall = 0
+Flush = 0
+PC_PPotential = 00000060
+PC_Potential = 00000060
+PC_Next = 00000060
+PC_Cur = 0000005c
+Instr_IF = 00000000
+PC_4_IF = 00000060
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 0000005c
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 1
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 1
+Rs_EX = 00000019
+Rt_EX = 00000019
+WriteRegA_EX = 11
+SignImm_EX = ffffffff
+PC_4_EX = 00000058
+SrcB = ffffffff
+Result_EX = 00000018
+Equal = 0
+BranchTaken = 0
+BranchAddr = 00000054
+RegWrite_MEM = 0
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000000
+WriteData = 00000000
+WriteRegA_MEM = 00
+PC_4_MEM = 00000000
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+                1000
+Stall = 0
+Flush = 0
+PC_PPotential = 00000064
+PC_Potential = 00000064
+PC_Next = 00000064
+PC_Cur = 00000060
+Instr_IF = 00000000
+PC_4_IF = 00000064
+JumpAddr = 00000000
+Jump = 0
+Instr_ID = 00000000
+PC_4_ID = 00000060
+RegDst = 0
+AluSrc_ID = 0
+AluOp_ID = 0
+ResultSel_ID = 0
+Branch_ID = 0
+MemWrite_ID = 0
+WriteToReg_ID = 0
+RegWrite_ID = 0
+JumpReg = 0
+Rs_ID = 00000000
+Rt_ID = 00000000
+WriteRegA_ID = 00
+SignImm_ID = 00000000
+RegWrite_EX = 0
+WriteToReg_EX = 0
+MemWrite_EX = 0
+Branch_EX = 0
+ResultSel_EX = 0
+AluOp_EX = 0
+AluSrc_EX = 0
+Rs_EX = 00000000
+Rt_EX = 00000000
+WriteRegA_EX = 00
+SignImm_EX = 00000000
+PC_4_EX = 0000005c
+SrcB = 00000000
+Result_EX = 00000000
+Equal = 0
+BranchTaken = 0
+BranchAddr = 0000005c
+RegWrite_MEM = 1
+WriteToReg_MEM = 0
+MemWrite_MEM = 0
+Result_MEM = 00000018
+WriteData = 00000019
+WriteRegA_MEM = 11
+PC_4_MEM = 00000058
+DMRD_MEM = 00000000
+RegWrite_WB = 0
+WriteToReg_WB = 0
+Result_WB = 00000000
+DMRD_WB = 00000000
+WriteRegA_WB = 00
+PC_4_WB = 00000000
+WriteBackData = 00000000
+
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'simulation_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1578.453 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul  2 12:55:32 2024...

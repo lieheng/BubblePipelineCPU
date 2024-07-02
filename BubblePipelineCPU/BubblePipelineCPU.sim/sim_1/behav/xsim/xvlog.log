@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpga
+INFO: [VRFC 10-311] analyzing module CPU
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'PC_Cur' is not allowed [D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v:12]
+INFO: [VRFC 10-311] analyzing module Hazard
+INFO: [VRFC 10-311] analyzing module JumpController
+INFO: [VRFC 10-311] analyzing module Controller
+INFO: [VRFC 10-311] analyzing module IF2ID
+INFO: [VRFC 10-311] analyzing module ID2EX
+INFO: [VRFC 10-311] analyzing module EX2MEM
+INFO: [VRFC 10-311] analyzing module MEM2WB
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-311] analyzing module Mux2
+INFO: [VRFC 10-311] analyzing module Mux4
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-311] analyzing module PCAdd4
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-311] analyzing module PCBranch
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sim_1/new/simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simulation

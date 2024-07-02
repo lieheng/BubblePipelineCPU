@@ -1,0 +1,81 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/Software/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot simulation_behav xil_defaultlib.simulation xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'in10' [D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v:172]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 4. Module CPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 296. Module Hazard doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 660. Module PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 707. Module InstructionMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 727. Module PCAdd4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 326. Module JumpController doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 479. Module IF2ID doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 335. Module Controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 755. Module RegFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 692. Module Mux4(DEPTH=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 736. Module SignExtend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 508. Module ID2EX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 788. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 745. Module PCBranch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2(DEPTH=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 584. Module EX2MEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 827. Module DataMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 624. Module MEM2WB doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 692. Module Mux4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 4. Module CPU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 296. Module Hazard doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 660. Module PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 707. Module InstructionMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 727. Module PCAdd4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 326. Module JumpController doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 479. Module IF2ID doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 335. Module Controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 755. Module RegFile doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 692. Module Mux4(DEPTH=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 736. Module SignExtend doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 508. Module ID2EX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 788. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 745. Module PCBranch doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 679. Module Mux2(DEPTH=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 584. Module EX2MEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 827. Module DataMemory doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 624. Module MEM2WB doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "D:/Document/TMP/BubblePipelineCPU/BubblePipelineCPU.srcs/sources_1/new/test.v" Line 692. Module Mux4 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Hazard
+Compiling module xil_defaultlib.Mux2
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.PCAdd4
+Compiling module xil_defaultlib.JumpController
+Compiling module xil_defaultlib.IF2ID
+Compiling module xil_defaultlib.Controller
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.Mux4(DEPTH=5)
+Compiling module xil_defaultlib.SignExtend
+Compiling module xil_defaultlib.ID2EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.PCBranch
+Compiling module xil_defaultlib.Mux2(DEPTH=1)
+Compiling module xil_defaultlib.EX2MEM
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.MEM2WB
+Compiling module xil_defaultlib.Mux4
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.simulation
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot simulation_behav
